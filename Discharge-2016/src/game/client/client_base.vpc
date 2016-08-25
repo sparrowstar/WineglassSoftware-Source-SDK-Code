@@ -77,10 +77,10 @@ $Project
 {
 	$Folder "Replay"
 	{
-		$File	"replay/replaycamera.cpp"
-		$File	"replay/replaycamera.h"
-		$File	"replay/cdll_replay.cpp"
-		$File	"replay/cdll_replay.h"
+		//$File	"replay/replaycamera.cpp"
+		//$File	"replay/replaycamera.h"
+		//$File	"replay/cdll_replay.cpp"
+		//$File	"replay/cdll_replay.h"
 		
 		$File	"replay/gamedefs.h"	[$BUILD_REPLAY]
 		$File	"replay/gamedefs.cpp"	[$BUILD_REPLAY]
@@ -183,12 +183,12 @@ $Project
 		$File	"$SRCDIR\game\shared\achievement_saverestore.h"
 		$File	"$SRCDIR\game\shared\achievementmgr.cpp"
 		$File	"$SRCDIR\game\shared\achievementmgr.h"
-		$File   "$SRCDIR\game\shared\achievements_and_stats_interface.h"
+		//$File   "$SRCDIR\game\shared\achievements_and_stats_interface.h"
 		$File	"$SRCDIR\game\shared\achievements_hlx.cpp"
 		$File	"achievement_notification_panel.cpp"
 		$File	"achievement_notification_panel.h"
 		$File	"$SRCDIR\game\shared\activitylist.cpp"
-		$File	"alphamaterialproxy.cpp"
+		//$File	"alphamaterialproxy.cpp"
 		$File	"$SRCDIR\game\shared\ammodef.cpp"
 		$File	"animatedentitytextureproxy.cpp"
 		$File	"animatedoffsettextureproxy.cpp"
@@ -206,8 +206,8 @@ $Project
 		$File	"$SRCDIR\game\shared\basegrenade_shared.cpp"
 		$File	"$SRCDIR\game\shared\baseparticleentity.cpp"
 		$File	"$SRCDIR\game\shared\baseplayer_shared.cpp"
-		$File	"$SRCDIR\game\shared\baseprojectile.cpp"
-		$File	"$SRCDIR\game\shared\baseprojectile.h"
+		//$File	"$SRCDIR\game\shared\baseprojectile.cpp"
+		//$File	"$SRCDIR\game\shared\baseprojectile.h"
 		$File	"$SRCDIR\game\shared\baseviewmodel_shared.cpp"
 		$File	"beamdraw.cpp"
 		$File	"$SRCDIR\game\shared\beam_shared.cpp"
@@ -286,8 +286,8 @@ $Project
 		$File	"hl2\hud_autoaim.cpp"
 		$File	"C_WaterLODControl.cpp"
 		$File	"c_world.cpp"
-		$File	"$SRCDIR\game\shared\cam_thirdperson.cpp"
-		$File	"$SRCDIR\game\shared\cam_thirdperson.h"
+		//$File	"$SRCDIR\game\shared\cam_thirdperson.cpp"
+		//$File	"$SRCDIR\game\shared\cam_thirdperson.h"
 		$File	"camomaterialproxy.cpp"
 		$File	"cdll_client_int.cpp"
 		$File	"cdll_bounded_cvars.cpp"
@@ -297,8 +297,8 @@ $Project
 		$File	"classmap.cpp"
 		$File	"client_factorylist.cpp"
 		$File	"client_thinklist.cpp"
-		$File	"client_virtualreality.cpp"
-		$File	"client_virtualreality.h"
+		//$File	"client_virtualreality.cpp"
+		//$File	"client_virtualreality.h"
 		$File	"clienteffectprecachesystem.cpp"
 		$File	"cliententitylist.cpp"
 		$File	"clientleafsystem.cpp"
@@ -306,8 +306,8 @@ $Project
 		$File	"clientshadowmgr.cpp"
 		$File	"clientsideeffects.cpp"
 		$File	"clientsideeffects_test.cpp"
-		$File	"clientsteamcontext.cpp"
-		$File	"clientsteamcontext.h"
+		//$File	"clientsteamcontext.cpp"
+		//$File	"clientsteamcontext.h"
 		$File	"colorcorrectionmgr.cpp"
 		$File	"commentary_modelviewer.cpp"
 		$File	"commentary_modelviewer.h"
@@ -374,7 +374,7 @@ $Project
 		$File	"in_joystick.cpp"
 		$File	"in_main.cpp"
 		$File	"initializer.cpp"
-		$File	"interpolatedvar.cpp"
+		//$File	"interpolatedvar.cpp"
 		$File	"IsNPCProxy.cpp"
 		$File	"lampbeamproxy.cpp"
 		$File	"lamphaloproxy.cpp"
@@ -411,7 +411,7 @@ $Project
 		$File	"$SRCDIR\game\shared\physics_shared.cpp"
 		$File	"physpropclientside.cpp"
 		$File	"playerandobjectenumerator.cpp"
-		$File	"playerspawncache.cpp"
+		//$File	"playerspawncache.cpp"
 		$File	"$SRCDIR\game\shared\point_bonusmaps_accessor.cpp"
 		$File	"$SRCDIR\game\shared\point_bonusmaps_accessor.h"
 		$File	"$SRCDIR\game\shared\point_posecontroller.cpp"
@@ -427,8 +427,8 @@ $Project
 		$File	"ragdoll.cpp"
 		$File	"$SRCDIR\game\shared\ragdoll_shared.cpp"
 		$File	"recvproxy.cpp"
-		$File	"basepresence.cpp"			[$WIN32||$POSIX]
-		$File	"basepresence_xbox.cpp"		[$X360]
+		//$File	"basepresence.cpp"			[$WIN32||$POSIX]
+		//$File	"basepresence_xbox.cpp"		[$X360]
 		$File	"$SRCDIR\game\shared\rope_helpers.cpp"
 		$File	"$SRCDIR\game\shared\saverestore.cpp"
 		$File	"$SRCDIR\game\shared\sceneentity_shared.cpp"
@@ -445,8 +445,8 @@ $Project
 		$File	"spritemodel.cpp"
 		$File	"$SRCDIR\game\shared\SpriteTrail.cpp"
 		$File	"$SRCDIR\game\shared\studio_shared.cpp"
-		$File	"studio_stats.cpp"
-		$File	"studio_stats.h"
+		//$File	"studio_stats.cpp"
+		//$File	"studio_stats.h"
 		$File	"$SRCDIR\game\shared\takedamageinfo.cpp"
 		$File	"$SRCDIR\game\shared\teamplay_gamerules.cpp"
 		$File	"$SRCDIR\game\shared\teamplayroundbased_gamerules.cpp"
@@ -465,7 +465,7 @@ $Project
 		$File	"vgui_bitmapbutton.cpp"
 		$File	"vgui_bitmapimage.cpp"
 		$File	"vgui_bitmappanel.cpp"
-		$File	"vgui_schemevisualizer.cpp"
+		//$File	"vgui_schemevisualizer.cpp"
 		$File	"vgui_centerstringpanel.cpp"
 		$File	"vgui_consolepanel.cpp"
 		$File	"vgui_debugoverlaypanel.cpp"
@@ -497,28 +497,28 @@ $Project
 		$File	"weapons_resource.cpp"
 		$File	"WorldDimsProxy.cpp"
 		$File	"vgui_video.cpp"
-		$File   "vgui_video_player.cpp"
+		//$File   "vgui_video_player.cpp"
 		$File	"$SRCDIR\game\shared\mp_shareddefs.cpp"
-		$File	"$SRCDIR\game\client\c_vote_controller.h"
-		$File	"$SRCDIR\game\client\c_vote_controller.cpp"
+		//$File	"$SRCDIR\game\client\c_vote_controller.h"
+		//$File	"$SRCDIR\game\client\c_vote_controller.cpp"
 		//Haptics
-		$File	"$SRCDIR\public\haptics\haptic_msgs.cpp"	[!$X360]
-		$File	"$SRCDIR\public\haptics\haptic_utils.cpp"	[$WIN32&&!$X360]
+		//$File	"$SRCDIR\public\haptics\haptic_msgs.cpp"	[!$X360]
+		//$File	"$SRCDIR\public\haptics\haptic_utils.cpp"	[$WIN32&&!$X360]
 
-		$Folder	"Sixense"
-		{
-			$File	"sixense\in_sixense.cpp"
-			$File	"sixense\in_sixense.h"
-			$File	"sixense\in_sixense_gesture_bindings.cpp"
-			$File	"sixense\in_sixense_gesture_bindings.h"
-			$File	"$SRCDIR\game\shared\sixense\sixense_convars.cpp"
-			$File	"$SRCDIR\game\shared\sixense\sixense_convars_extern.h"
-		}
+		//$Folder	"Sixense"
+		//{
+		//	$File	"sixense\in_sixense.cpp"
+		//	$File	"sixense\in_sixense.h"
+		//	$File	"sixense\in_sixense_gesture_bindings.cpp"
+		//	$File	"sixense\in_sixense_gesture_bindings.h"
+		//	$File	"$SRCDIR\game\shared\sixense\sixense_convars.cpp"
+		//	$File	"$SRCDIR\game\shared\sixense\sixense_convars_extern.h"
+		//}
 		
 		// Files not using precompiled header cbase.h
 
-		$File	"$SRCDIR\public\bone_setup.cpp"						\
-				"$SRCDIR\public\posedebugger.cpp"					\
+		//$File	"$SRCDIR\public\bone_setup.cpp"						\
+		$File	"$SRCDIR\public\posedebugger.cpp"					\
 				"$SRCDIR\public\client_class.cpp"					\
 				"$SRCDIR\common\compiledcaptionswap.cpp"			\
 				"$SRCDIR\public\collisionutils.cpp"					\
@@ -527,9 +527,18 @@ $Project
 				"$SRCDIR\public\dt_utlvector_common.cpp"			\
 				"$SRCDIR\public\dt_utlvector_recv.cpp"				\
 				"$SRCDIR\public\filesystem_helpers.cpp"				\
-				"$SRCDIR\public\interpolatortypes.cpp"				\
-				"$SRCDIR\game\shared\interval.cpp"					\
-				"$SRCDIR\common\language.cpp"						\
+				"$SRCDIR\public\interpolatortypes.cpp"				
+				{
+					$Configuration
+					{
+						$Compiler
+						{
+							$Create/UsePrecompiledHeader	"Not Using Precompiled Headers"
+						}
+					}
+				}
+				//"$SRCDIR\game\shared\interval.cpp"					\
+		$File	"$SRCDIR\common\language.cpp"						\
 				"$SRCDIR\public\networkvar.cpp"						\
 				"$SRCDIR\common\randoverride.cpp"					\
 				"$SRCDIR\public\rope_physics.cpp"					\
@@ -545,8 +554,6 @@ $Project
 				"$SRCDIR\public\jigglebones.cpp"					\
 				"hud_lcd.cpp"										\
 				"in_mouse.cpp"										\
-				"mumble.cpp"						\
-				"$SRCDIR\public\renamed_recvtable_compat.cpp"		\
 				"rendertexture.cpp"									
 				{
 					$Configuration
@@ -557,6 +564,8 @@ $Project
 						}
 					}
 				}
+				//"mumble.cpp"						\
+				//"$SRCDIR\public\renamed_recvtable_compat.cpp"		\
 
 		$Folder	"Precompiled Header"
 		{
@@ -780,7 +789,7 @@ $Project
 		$File	"hud_macros.h"
 		$File	"hud_numericdisplay.h"
 		$File	"hud_pdump.h"
-		$File	"basepresence.h"
+		//$File	"basepresence.h"
 		$File	"hud_vehicle.h"
 		$File	"hudelement.h"
 		$File	"hudtexturehandle.h"
@@ -792,9 +801,9 @@ $Project
 		$File	"iconsole.h"
 		$File	"idebugoverlaypanel.h"
 		$File	"ifpspanel.h"
-		$File	"$SRCDIR\game\shared\econ\ihasowner.h"
+		//$File	"$SRCDIR\game\shared\econ\ihasowner.h"
 		$File	"ihudlcd.h"
-		$File	"ipresence.h"
+		//$File	"ipresence.h"
 		$File	"iinput.h"
 		$File	"iloadingdisc.h"
 		$File	"imessagechars.h"
@@ -802,7 +811,7 @@ $Project
 		$File	"inetgraphpanel.h"
 		$File	"initializer.h"
 		$File	"input.h"
-		$File	"interpolatedvar.h"
+		//$File	"interpolatedvar.h"
 		$File	"iprofiling.h"
 		$File	"itextmessage.h"
 		$File	"ivieweffects.h"
@@ -811,10 +820,10 @@ $Project
 		$File	"ivmodemanager.h"
 		$File	"kbutton.h"
 		$File	"$SRCDIR\common\language.h"
-		$File	"lerp_functions.h"
+		//$File	"lerp_functions.h"
 		$File	"menu.h"
 		$File	"movehelper_client.h"
-		$File	"mumble.h"
+		//$File	"mumble.h"
 		$File	"networkstringtable_clientdll.h"
 		$File	"panelmetaclassmgr.h"
 		$File	"particle_collision.h"
@@ -836,7 +845,7 @@ $Project
 		$File	"physpropclientside.h"
 		$File	"playerandobjectenumerator.h"
 		$File	"playerenumerator.h"
-		$File	"playerspawncache.h"
+		//$File	"playerspawncache.h"
 		$File	"prediction.h"
 		$File	"prediction_private.h"
 		$File	"proxyentity.h"
@@ -858,7 +867,7 @@ $Project
 		$File	"vgui_bitmapbutton.h"
 		$File	"vgui_bitmapimage.h"
 		$File	"vgui_bitmappanel.h"
-		$File	"vgui_schemevisualizer.h"
+		//$File	"vgui_schemevisualizer.h"
 		$File	"vgui_entityimagepanel.h"
 		$File	"vgui_entitypanel.h"
 		$File	"vgui_grid.h"
@@ -874,12 +883,12 @@ $Project
 		$File	"weapon_selection.h"
 		$File	"weapons_resource.h"
 		$File	"vgui_video.h"
-		$File   "vgui_video_player.h"
+		//$File   "vgui_video_player.h"
 	}
 
 	$Folder	"Public Header Files"
 	{
-		$File	"$SRCDIR\public\mathlib\amd3dx.h"
+		//$File	"$SRCDIR\public\mathlib\amd3dx.h"
 		$File	"$SRCDIR\public\vgui_controls\AnimationController.h"
 		$File	"$SRCDIR\public\basehandle.h"
 		$File	"$SRCDIR\public\tier0\basetypes.h"
@@ -998,7 +1007,7 @@ $Project
 		$File	"$SRCDIR\public\materialsystem\itexture.h"
 		$File	"$SRCDIR\public\engine\ivdebugoverlay.h"
 		$File	"$SRCDIR\public\vgui\IVGui.h"
-		$File	"$SRCDIR\public\ivguicenterprint.h"
+		//$File	"$SRCDIR\public\ivguicenterprint.h"
 		$File	"$SRCDIR\public\game\client\iviewport.h"
 		$File	"$SRCDIR\public\engine\ivmodelinfo.h"
 		$File	"$SRCDIR\public\engine\ivmodelrender.h"
@@ -1038,7 +1047,7 @@ $Project
 		$File	"$SRCDIR\public\r_efx.h"
 		$File	"$SRCDIR\public\vstdlib\random.h"
 		$File	"$SRCDIR\public\tier1\rangecheckedvar.h"
-		$File	"$SRCDIR\public\renamed_recvtable_compat.h"
+		//$File	"$SRCDIR\public\renamed_recvtable_compat.h"
 		$File	"$SRCDIR\public\vgui_controls\RichText.h"
 		$File	"$SRCDIR\public\rope_physics.h"
 		$File	"$SRCDIR\public\rope_shared.h"
@@ -1100,8 +1109,8 @@ $Project
 		$File	"$SRCDIR\public\worldsize.h"
 		$File	"$SRCDIR\public\zip_uncompressed.h"
 		//Haptics
-		$File   "$SRCDIR\public\haptics\ihaptics.h"	[$WIN32]
-		$File   "$SRCDIR\public\haptics\haptic_utils.h"	[$WIN32]
+		//$File   "$SRCDIR\public\haptics\ihaptics.h"	[$WIN32]
+		//$File   "$SRCDIR\public\haptics\haptic_utils.h"	[$WIN32]
 	}
 
 	$Folder	"Game Shared Header Files"
@@ -1155,7 +1164,7 @@ $Project
 		$File	"$SRCDIR\game\shared\igamesystem.h"
 		$File	"$SRCDIR\game\shared\imovehelper.h"
 		$File	"$SRCDIR\game\shared\in_buttons.h"
-		$File	"$SRCDIR\game\shared\interval.h"
+		//$File	"$SRCDIR\game\shared\interval.h"
 		$File	"$SRCDIR\game\shared\iplayeranimstate.h"
 		$File	"$SRCDIR\game\shared\ipredictionsystem.h"
 		$File	"$SRCDIR\game\shared\itempents.h"
@@ -1193,7 +1202,7 @@ $Project
 		$File	"$SRCDIR\game\shared\shot_manipulator.h"
 		$File	"$SRCDIR\game\shared\simtimer.h"
 		$File	"$SRCDIR\game\shared\singleplay_gamerules.h"
-		$File	"$SRCDIR\game\shared\smoke_fog_overlay_shared.h"
+		//$File	"$SRCDIR\game\shared\smoke_fog_overlay_shared.h"
 		$File	"$SRCDIR\game\shared\solidsetdefaults.h"
 		$File	"$SRCDIR\game\shared\soundenvelope.h"
 		$File	"$SRCDIR\game\shared\Sprite.h"
@@ -1218,7 +1227,7 @@ $Project
 		$File	"$SRCDIR\game\shared\vphysics_sound.h"
 		$File	"$SRCDIR\game\shared\weapon_parse.h"
 		$File	"$SRCDIR\game\shared\weapon_proficiency.h"
-		$File	"$SRCDIR\game\shared\weapon_ifmsteadycam.h"
+		//$File	"$SRCDIR\game\shared\weapon_ifmsteadycam.h"
 		$File	"$SRCDIR\game\shared\mp_shareddefs.h"
 	}
 

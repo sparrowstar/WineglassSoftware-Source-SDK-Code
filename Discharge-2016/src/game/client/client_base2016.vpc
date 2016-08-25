@@ -1,12 +1,11 @@
 //-----------------------------------------------------------------------------
-//	CLIENT_EPISODIC.VPC
+//	CLIENT_BASE2016.VPC
 //
 //	Project Script
 //-----------------------------------------------------------------------------
 
 $Macro SRCDIR		"..\.."
-$Macro GAMENAME 	"episodic" [!$SOURCESDK]
-$Macro GAMENAME 	"mod_episodic" [$SOURCESDK]
+$Macro GAMENAME 	"..\..\WineglassSoftware-GameAssets\sourcetest"
 
 $Include "$SRCDIR\game\client\client_base.vpc"
 
@@ -30,9 +29,9 @@ $Project "Client (Episodic)"
 		$Folder	"HL2 DLL"
 		{
 			$File	"$SRCDIR\game\shared\hl2\basehlcombatweapon_shared.cpp"
-			$File	"$SRCDIR\game\shared\episodic\achievements_ep1.cpp"
-			$File	"$SRCDIR\game\shared\episodic\achievements_ep2.cpp"
-			$File	"$SRCDIR\game\shared\episodic\achievements_epx.cpp"
+			//$File	"$SRCDIR\game\shared\episodic\achievements_ep1.cpp"
+			//$File	"$SRCDIR\game\shared\episodic\achievements_ep2.cpp"
+			//$File	"$SRCDIR\game\shared\episodic\achievements_epx.cpp"
 			$File	"hl2\c_antlion_dust.cpp"
 			$File	"hl2\c_ar2_explosion.cpp"
 			$File	"hl2\c_barnacle.cpp"

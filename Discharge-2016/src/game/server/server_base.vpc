@@ -68,14 +68,14 @@ $Configuration
 
 $Project
 {
-	$Folder "Replay"
-	{
-		$File	"gamedll_replay.cpp"
-		$File	"$SRCDIR\common\replay\ireplaysessionrecorder.h"
-		
-		$File	"$SRCDIR\game\shared\replay_gamestats_shared.cpp"	[$BUILD_REPLAY]
-		$File	"$SRCDIR\game\shared\replay_gamestats_shared.h"	[$BUILD_REPLAY]
-	}
+	//$Folder "Replay"
+	//{
+	//	$File	"gamedll_replay.cpp"
+	//	$File	"$SRCDIR\common\replay\ireplaysessionrecorder.h"
+	//	
+	//	$File	"$SRCDIR\game\shared\replay_gamestats_shared.cpp"	[$BUILD_REPLAY]
+	//	$File	"$SRCDIR\game\shared\replay_gamestats_shared.h"	[$BUILD_REPLAY]
+	//}
 	
 	$Folder	"Source Files"
 	{
@@ -123,8 +123,8 @@ $Project
 		$File	"ai_concommands.cpp"
 		$File	"ai_condition.cpp"
 		$File	"ai_condition.h"
-		$File	"AI_Criteria.cpp"
-		$File	"AI_Criteria.h"
+		//$File	"AI_Criteria.cpp"
+		//$File	"AI_Criteria.h"
 		$File	"ai_debug.h"
 		$File	"$SRCDIR\game\shared\ai_debug_shared.h"
 		$File	"ai_default.cpp"
@@ -179,8 +179,8 @@ $Project
 		$File	"ai_planesolver.h"
 		$File	"ai_playerally.cpp"
 		$File	"ai_playerally.h"
-		$File	"AI_ResponseSystem.cpp"
-		$File	"AI_ResponseSystem.h"
+		//$File	"AI_ResponseSystem.cpp"
+		//$File	"AI_ResponseSystem.h"
 		$File	"ai_route.cpp"
 		$File	"ai_route.h"
 		$File	"ai_routedist.h"
@@ -245,8 +245,8 @@ $Project
 		$File	"$SRCDIR\game\shared\baseparticleentity.h"
 		$File	"$SRCDIR\game\shared\baseplayer_shared.cpp"
 		$File	"$SRCDIR\game\shared\baseplayer_shared.h"
-		$File	"$SRCDIR\game\shared\baseprojectile.cpp"
-		$File	"$SRCDIR\game\shared\baseprojectile.h"
+		//$File	"$SRCDIR\game\shared\baseprojectile.cpp"
+		//$File	"$SRCDIR\game\shared\baseprojectile.h"
 		$File	"BasePropDoor.h"
 		$File	"basetoggle.h"
 		$File	"baseviewmodel.cpp"
@@ -339,7 +339,7 @@ $Project
 		$File	"envmicrophone.h"
 		$File	"EnvShake.cpp"
 		$File	"EnvSpark.cpp"
-		$File	"envspark.h"
+		//$File	"envspark.h"
 		$File	"$SRCDIR\public\event_flags.h"
 		$File	"event_tempentity_tester.h"
 		$File	"$SRCDIR\game\shared\eventlist.cpp"
@@ -409,7 +409,7 @@ $Project
 		$File	"h_ai.cpp"
 		$File	"hierarchy.cpp"
 		$File	"hierarchy.h"
-		$file	"$SRCDIR\common\hl2orange.spa.h"
+		//$file	"$SRCDIR\common\hl2orange.spa.h"
 		$File	"hltvdirector.cpp"
 		$File	"hltvdirector.h"
 		$File	"$SRCDIR\game\shared\hintmessage.cpp"
@@ -425,7 +425,7 @@ $Project
 		$File	"init_factory.h"
 		$File	"intermission.cpp"
 		$File	"$SRCDIR\public\interpolatortypes.h"
-		$File	"$SRCDIR\game\shared\interval.h"
+		//$File	"$SRCDIR\game\shared\interval.h"
 		$File	"$SRCDIR\public\iregistry.h"
 		$File	"$SRCDIR\game\shared\iscenetokenprocessor.h"
 		$File	"iservervehicle.h"
@@ -481,7 +481,7 @@ $Project
 		$File	"phys_controller.cpp"
 		$File	"phys_controller.h"
 		$File	"physconstraint.cpp"
-		$File	"physconstraint.h"
+		//$File	"physconstraint.h"
 		$File	"physics.cpp"
 		$File	"physics.h"
 		$File	"physics_bone_follower.cpp"
@@ -554,7 +554,7 @@ $Project
 		$File	"$SRCDIR\game\shared\saverestore.cpp"
 		$File	"$SRCDIR\game\shared\saverestore.h"
 		$File	"$SRCDIR\game\shared\saverestore_bitstring.h"
-		$File	"saverestore_gamedll.cpp"
+		//$File	"saverestore_gamedll.cpp"
 		$File	"$SRCDIR\game\shared\saverestore_utlsymbol.h"
 		$File	"$SRCDIR\game\shared\saverestore_utlvector.h"
 		$File	"$SRCDIR\game\shared\SceneCache.cpp"
@@ -606,8 +606,8 @@ $Project
 		$File	"$SRCDIR\game\shared\studio_shared.cpp"
 		$File	"subs.cpp"
 		$File	"sun.cpp"
-		$File	"tactical_mission.cpp"
-		$File	"tactical_mission.h"
+		//$File	"tactical_mission.cpp"
+		//$File	"tactical_mission.h"
 		$File	"$SRCDIR\game\shared\takedamageinfo.cpp"
 		$File	"tanktrain.cpp"
 		$File	"team.cpp"
@@ -659,16 +659,16 @@ $Project
 		$File	"world.h"
 		$File	"$SRCDIR\game\shared\mp_shareddefs.cpp"
 		$File	"$SRCDIR\game\shared\SharedFunctorUtils.h"
-		$File	"$SRCDIR\game\server\vote_controller.h"
-		$File	"$SRCDIR\game\server\vote_controller.cpp"
+		//$File	"$SRCDIR\game\server\vote_controller.h"
+		//$File	"$SRCDIR\game\server\vote_controller.cpp"
 		//Haptics
-		$File	"$SRCDIR\public\haptics\haptic_msgs.cpp"
-		$File	"$SRCDIR\public\haptics\haptic_utils.cpp"	[$WIN32]
+		//$File	"$SRCDIR\public\haptics\haptic_msgs.cpp"
+		//$File	"$SRCDIR\public\haptics\haptic_utils.cpp"	[$WIN32]
 
 		// Not using precompiled header cbase.h
 
-		$File	"$SRCDIR\public\bone_setup.cpp"					\
-				"$SRCDIR\public\collisionutils.cpp"					\
+		//$File	"$SRCDIR\public\bone_setup.cpp"					\
+		$File	"$SRCDIR\public\collisionutils.cpp"					\
 				"$SRCDIR\public\dt_send.cpp"						\
 				"$SRCDIR\public\dt_utlvector_common.cpp"			\
 				"$SRCDIR\public\dt_utlvector_send.cpp"				\
@@ -677,9 +677,19 @@ $Project
 				"gamehandle.cpp"									\
 				"h_export.cpp"										\
 				"init_factory.cpp"									\
-				"$SRCDIR\public\interpolatortypes.cpp"				\
-				"$SRCDIR\game\shared\interval.cpp"					\
-				"$SRCDIR\public\keyframe\keyframe.cpp"				\
+				"$SRCDIR\public\interpolatortypes.cpp"				
+		{
+			$Configuration
+			{
+				$Compiler
+				{
+					$Create/UsePrecompiledHeader	"Not Using Precompiled Headers"
+				}
+			}
+		}
+		
+				//"$SRCDIR\game\shared\interval.cpp"					\
+		$File	"$SRCDIR\public\keyframe\keyframe.cpp"				\
 				"$SRCDIR\common\language.cpp"						\
 				"$SRCDIR\public\map_utils.cpp"						\
 				"$SRCDIR\public\networkvar.cpp"						\
@@ -786,7 +796,7 @@ $Project
 
 	$Folder	"Header Files"
 	{
-		$File	"$SRCDIR\public\mathlib\amd3dx.h"
+		//$File	"$SRCDIR\public\mathlib\amd3dx.h"
 		$File	"$SRCDIR\game\shared\ammodef.h"
 		$File	"$SRCDIR\game\shared\base_playeranimstate.h"
 		$File	"base_transmit_proxy.h"
@@ -974,8 +984,8 @@ $Project
 		$File	"variant_t.h"
 		$File	"$SRCDIR\public\vcollide.h"
 		$File	"$SRCDIR\public\vcollide_parse.h"
-		$File	"$SRCDIR\public\tier0\vcr_shared.h"
-		$File	"$SRCDIR\public\tier0\vcrmode.h"
+		//$File	"$SRCDIR\public\tier0\vcr_shared.h"
+		//$File	"$SRCDIR\public\tier0\vcrmode.h"
 		$File	"$SRCDIR\public\mathlib\vector.h"
 		$File	"$SRCDIR\public\mathlib\vector2d.h"
 		$File	"$SRCDIR\public\mathlib\vector4d.h"
@@ -993,9 +1003,9 @@ $Project
 		$File	"$SRCDIR\public\worldsize.h"
 		$File	"$SRCDIR\public\zip_uncompressed.h"
 		$File	"$SRCDIR\game\shared\mp_shareddefs.h"
-		$File	"$SRCDIR\game\shared\econ\ihasowner.h"
+		//$File	"$SRCDIR\game\shared\econ\ihasowner.h"
 		//Haptics
-		$File	"$SRCDIR\public\haptics\haptic_utils.h"	[$WIN32]
+		//$File	"$SRCDIR\public\haptics\haptic_utils.h"	[$WIN32]
 	}
 
 	$Folder	"Tools Framework"
